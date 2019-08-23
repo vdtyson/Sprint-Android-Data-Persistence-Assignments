@@ -1,6 +1,20 @@
 # AsyncTask File Io
 
-## Introduction
+### Instructions
+
+**Please read this entire README to make sure you understand what is expected of you before you begin.**
+
+This sprint challenge is designed to ensure that you are competent with the concepts taught throughout this sprint.
+
+In your solution, it is especially important that you follow best practices such as MVC and good, consistent code style. You will be scored on these aspects as well as the project MVP (minimum viable product) requirements below.
+
+Fork this repository and clone your fork to your computer. Create your Android Studio project in this cloned fork repository folder, then commit and create a pull request. Commit appropriately as you work. When finished, push your final project to GitHub and comment on the pull requestto indicate that your project is complete.
+
+You have *3 hours*, and you should work *independently* — looking things up (search, notes) is all fair game. And questions about *process* / *logistics* (i.e. if you have a hard time opening/saving to GitHub) are fair game too.
+
+Good luck!
+
+## Requirements
 
 This project will adapt your threading cypher project to load the text from asset files instead of the strings resource. This will allow for much bigger files, so be sure that your algorithm is efficient. Mine can perform a single step of the cypher in about 350ms.
 

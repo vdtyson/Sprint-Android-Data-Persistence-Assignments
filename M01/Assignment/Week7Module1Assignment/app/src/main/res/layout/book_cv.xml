@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@+id/bookCV"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="3dp"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_margin="10dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/bookCV_CL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView android:id="@+id/bookCV_nameTV"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Book Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/bookCV_genreTV"
+
+            android:text="Genre"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintLeft_toLeftOf="@id/bookCV_nameTV"
+            app:layout_constraintTop_toBottomOf="@id/bookCV_nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/bookCV_reasonToReadTV"
+
+            app:layout_constraintStart_toStartOf="@id/bookCV_genreTV"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:text="A fearless group of warriors who got to great lengths to intimidate there foes"
+            app:layout_constraintTop_toBottomOf="@id/bookCV_genreTV"
+            app:layout_constraintLeft_toLeftOf="@id/bookCV_genreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.button.MaterialButton android:id="@+id/bookCV_editBttn"
+
+            android:textSize="18sp"
+            android:paddingStart="0dp"
+            android:textAlignment="viewStart"
+            android:text="Edit"
+            app:layout_constraintLeft_toLeftOf="@id/bookCV_reasonToReadTV"
+            app:layout_constraintTop_toBottomOf="@id/bookCV_reasonToReadTV"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

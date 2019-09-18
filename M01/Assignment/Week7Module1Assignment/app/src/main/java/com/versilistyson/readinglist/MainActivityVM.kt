@@ -3,7 +3,7 @@ package com.versilistyson.readinglist
 import com.versilistyson.readinglist.model.Book
 
 class MainActivityVM {
-    val books = listOf<Book>(
+    var books = listOf(
         Book(
             "In Search of Lost Time",
             "Swann's Way, the first part of A la recherche de temps perdu, Marcel Proust's seven-part cycle, was published in 1913",

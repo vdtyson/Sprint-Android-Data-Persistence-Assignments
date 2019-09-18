@@ -1,9 +1,11 @@
 package com.versilistyson.readinglist.model
 
+import java.io.Serializable
+
 data class Book (
-    val title: String,
-    val reasonToRead: String,
+    var title: String,
+    var reasonToRead: String,
     var hasBeenRead: Boolean = false,
     var hasBeenFaved: Boolean = false,
-    val id: Int
-)
+    var id: Int
+) : Serializable

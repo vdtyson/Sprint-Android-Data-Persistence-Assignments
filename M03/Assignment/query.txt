@@ -1,0 +1,20 @@
+SELECT * FROM players;
+
+SELECT first_name FROM players;
+
+SELECT * FROM teams 
+WHERE name="Bulls";
+
+SELECT * FROM players
+WHERE age > 40;
+
+UPDATE teams
+SET name = 'Spurs', wins = 82, losses = 0
+WHERE name = 'Pistons';
+
+SELECT * FROM teams;
+
+DELETE FROM players
+WHERE age > 40;
+
+SELECT * FROM players;

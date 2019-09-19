@@ -1,0 +1,42 @@
+CREATE TABLE players (
+  id INTEGER PRIMARY KEY,
+  first_name TEXT,
+  last_name TEXT,
+  age INTEGER
+  );
+  
+
+  CREATE TABLE teams (
+    
+  	id INTEGER PRIMARY KEY,
+    name TEXT,
+    wins INTEGER,
+    losses INTEGER
+ );
+ 
+  INSERT INTO players (id, first_name,last_name, age)
+  VALUES (1, "Versilis", "Tyson", 21);
+
+  INSERT INTO players (id, first_name,last_name, age)
+  VALUES (2, "Michael", "Phelps", 42);
+
+  INSERT INTO players (id, first_name,last_name, age)
+  VALUES (3, "Michael", "Jordan", 54);
+  
+  INSERT INTO players (id, first_name,last_name, age)
+  VALUES (4, "Kobe", "Bryant", 43);
+
+  INSERT INTO players (id, first_name,last_name, age)
+  VALUES (5, "Lebron", "James", 38);
+
+  INSERT INTO teams (id, name, wins, losses)
+  VALUES(1, "Lakers", 32, 51);
+  
+  INSERT INTO teams (id, name, wins, losses)
+  VALUES(2, "Bulls", 82, 0);
+  
+  INSERT INTO teams (id, name, wins, losses)
+  VALUES(3, "Bucks", 42, 33);
+
+  INSERT INTO teams (id, name, wins, losses)
+  VALUES(4, "Pistons", 0, 82);
